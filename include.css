@@ -36,6 +36,34 @@
     font-family: 'oxxo';
     src: url('setofont.ttf');
 }
+
+#direction{
+    width:50px;
+    height:60px;
+    position:absolute;
+    left:1156px;
+    top:528px;     
+}
+
+#direction:hover{
+    width: 70px;
+    height:75px;
+    position:absolute;
+    left:1145px;
+    top:528px;   
+}
+
+#ans{
+    font-family: oxxo;
+    text-align: center;
+    width:300px;
+    position:absolute;
+    left:940px;
+    top:550px;
+    font-size: 20px;
+    opacity: 0;
+}
+
 #character1{
     width:150px;
     position:absolute;
