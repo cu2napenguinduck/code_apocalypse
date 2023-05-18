@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'oxxo';
+    src: url('setofont.ttf');
+}
+.door{
+    width:250px;
+    opacity: 1;
+}
+.openingdoor{
+    width:300px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity: 0;
+
+}
+.openingdoor:hover{
+    opacity:1;
+}
+.idconfirm{
+    width:400px;
+    text-align: center;
+    font-family: oxxo;
+    font-size: x-large;
+    position: absolute;
+    left:500px;
+    top: 60px;
+    opacity: 0;
+}
+.question{
+    width:400px;
+    height: 200px;
+    text-align: center;
+    font-family: oxxo;
+    font-size: 50px;
+    position: absolute;
+    left:500px;
+    top: 150px;
+    padding: 50px;
+    opacity: 0;
+}
+.border{
+    position: absolute;
+    left:400px;
+    top: 100px;
+    opacity: 0;
+}
+.yes{
+    border:solid;
+    border-radius: 35%;
+    border-color: black;
+    margin: 0;
+    text-align:center;
+    height:40px;
+    width: 70px;
+    position:absolute;
+    left:600px;
+    top:310px;
+    font-family:oxxo;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding:5px;
+    opacity: 0;
+}
+.no{
+    border:solid;
+    border-radius: 30%;
+    border-color: black;
+    margin: 0;
+    text-align:center;
+    height:40px;
+    width: 150px;
+    position:absolute;
+    left:750px;
+    top:310px;
+    font-family:oxxo;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding:5px;
+    opacity: 0;
+}
+.yes:hover{
+    background-color: black;
+    color:white;
+}
+.no:hover{
+    background-color: black;
+    color:white;
+}
