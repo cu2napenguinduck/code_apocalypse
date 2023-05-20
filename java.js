@@ -2,18 +2,21 @@ $(document).ready(function(){
 $("#character2").click(
     function(){
         $("#character2").css("opacity","0");
-    }
+        $(".scare1").css("opacity","1");
+    }   
 );
 
 $("#character3").click(
     function(){
         $("#character3").css("opacity","0");
-    }
+        $(".scare2").css("opacity","1");
+        }
 );
 
 $("#character4").click(
     function(){
         $("#character4").css("opacity","0");
+        $(".scare3").css("opacity","1");
 
     }
 );
