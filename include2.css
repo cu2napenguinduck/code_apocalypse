@@ -4,12 +4,9 @@
     top: 0;
     left: 150px;
     bottom: 0;
-    animation: delay 1s 0s forwards;
+    animation: delay 1s 0s none;
+    
 }
-
-
-
-
 @keyframes delay{
     from{
         opacity:0;
@@ -38,4 +35,54 @@
 }
 .face:hover{
     opacity:1;
+}
+.myborder{
+    position: absolute;
+    left: 200px;
+    width:900px;
+    opacity: 0;
+}
+.q1{
+    border:solid;
+    border-radius: 35%;
+    border-color: black;
+    margin: 0;
+    text-align:center;
+    height:30px;
+    width: 200px;
+    position:absolute;
+    left:400px;
+    top:250px;
+    padding: 10px;
+    font-family:oxxo;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    opacity: 0;
+}
+.q2{
+    border:solid;
+    border-radius: 35%;
+    border-color: black;
+    margin: 0;
+    text-align:center;
+    height:30px;
+    width: 230px;
+    position:absolute;
+    left:680px;
+    top:250px;
+    padding: 10px;
+    font-family:oxxo;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    opacity: 0;
+}
+.q1:hover{
+    background-color: black;
+    color:white;
+}
+.q2:hover{
+    background-color: black;
+    color:white;
 }
