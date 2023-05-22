@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'oxxo';
+    src: url('setofont.ttf');
+}
+.knowledge{
+    font-family: oxxo;
+    font-size: 30px;
+}

@@ -48,5 +48,15 @@ $(".face").click(
         $(".face").css("opacity","0");
     }   
 );
+$(".arrow").mouseenter(
+    function(){
+        $(".plastic").css("opacity","1");
+    }
+);
+$(".arrow").mouseleave(
+    function(){
+        $(".plastic").css("opacity","0");
+    }
+);
 
 });
