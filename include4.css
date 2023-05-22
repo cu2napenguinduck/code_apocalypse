@@ -1,0 +1,103 @@
+.ch1 {
+    width:110px;
+    position: absolute;
+    top:110px;
+    left: 480px;
+    animation: delay 1s 0s none;
+    z-index:4;
+    
+}
+@keyframes delay{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+.white{
+    width:350px;
+    position:absolute;
+    left:380px;
+    top:10px;
+    animation: delay 1s 0s none;
+    z-index:3;
+}   
+
+@font-face{
+    font-family: 'oxxo';
+    src: url('setofont.ttf');
+}
+
+.border{
+    width:800px;
+    position:absolute;
+    left:140px;
+    top:80px;
+    opacity:0;
+    z-index:1;
+
+} 
+
+.judgeq{
+    height:30px;
+    width: 240px;
+    position:absolute;
+    left:440px;
+    top:240px;
+    padding: 10px;
+    font-family:oxxo;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    opacity:0;
+    z-index:2;
+}
+
+.ans1{
+    border:solid;
+    border-radius: 35%;
+    border-color: black;
+    margin: 0;
+    text-align:center;
+    height:30px;
+    width: 80px;
+    position:absolute;
+    left:400px;
+    top:300px;
+    padding: 10px;
+    font-family:oxxo;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    opacity: 0;
+    z-index:5;
+}
+.ans2{
+    border:solid;
+    border-radius: 35%;
+    border-color: black;
+    margin: 0;
+    text-align:center;
+    height:30px;
+    width: 80px;
+    position:absolute;
+    left:600px;
+    top:300px;
+    padding: 10px;
+    font-family:oxxo;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    opacity: 0;
+    z-index:6;
+}
+.ans1:hover{
+    background-color: black;
+    color:white;
+}
+.ans2:hover{
+    background-color: black;
+    color:white;
+}
