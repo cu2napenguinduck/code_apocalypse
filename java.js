@@ -58,5 +58,19 @@ $(".arrow").mouseleave(
         $(".plastic").css("opacity","0");
     }
 );
+$(".start").click(
+    function(){
+        $(".all").css("opacity","1");
+        $(".all1").css("opacity","1");
+        $(".warn").css("opacity","1");
+        $(".start").css("opacity","0");
+        $(".truestart").css("opacity","1");
+        $(".truestart2").css("opacity","1");
+        $(".all").css("z-index","1");
+        $(".all1").css("z-index","2");
+        $(".background").css("opacity","0.4");
+        $(".title").css("opacity","0.4");
+    }
+)
 
 });
