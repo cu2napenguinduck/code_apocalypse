@@ -1,0 +1,66 @@
+.need{
+    position: absolute;
+    width:330px;
+    left: 60px;
+    top: 150px;
+    animation: delay 1s 0s none;
+}
+.long{
+    position: absolute;
+    width:320px;
+    left: 80px;
+    top: 40px;
+    opacity: 0;
+}
+.long:hover{
+    opacity: 1;
+}
+.okay{
+    color: white;
+    font-family: oxxo;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    width: 500px;
+    font-size: 50px;
+    animation: delay 1s 0s none;
+}
+.notsmart{
+    color: white;
+    font-family: oxxo;
+    position: absolute;
+    left: 1000px;
+    bottom: 50px;
+    width: 200px;
+    font-size: 20px;
+    animation: delay 1s 0s none;
+}
+.explanation{
+    color: white;
+    font-family: oxxo;
+    position: absolute;
+    left: 550px;
+    top: 330px;
+    width: 500px;
+    font-size: 30px;
+    animation: delay 1s 0s none;
+} 
+.notsmart:hover{
+    font-size: 30px;
+    width: 300px;
+    position: absolute;
+    bottom: 40px;
+    left: 950px;
+}
+@font-face{
+    font-family: 'oxxo';
+    src: url('setofont.ttf');
+}
+@keyframes delay{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
