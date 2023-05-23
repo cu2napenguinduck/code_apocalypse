@@ -1,0 +1,136 @@
+@font-face{
+    font-family: 'oxxo';
+    src: url('setofont.ttf');
+}
+
+.beauty{
+    font-family: oxxo;
+    position:absolute;
+    background-color: white;
+    font-weight: bold;
+    left:20px;
+    top:10px;
+    z-index:2;
+}
+
+.nn1{
+    width:180px;
+    position:absolute;
+    left:20px;
+    top:10px;
+    z-index:1;
+}
+
+.nn2{
+    width:180px;
+    position:absolute;
+    left:220px;
+    top:10px;
+    opacity:0;
+}
+
+
+.nn3{
+    width:180px;
+    position:absolute;
+    left:420px;
+    top:10px;
+    opacity:0;
+}
+
+
+.nn4{
+    width:180px;
+    position:absolute;
+    left:620px;
+    top:10px;
+    opacity:0;
+}
+
+
+.nn5{
+    width:180px;
+    position:absolute;
+    left:820px;
+    top:10px;
+    opacity:0;
+}
+
+
+.nn6{
+    width:180px;
+    position:absolute;
+    left:20px;
+    top:295px;
+    opacity:0;
+}
+
+
+.nn7{
+    width:180px;
+    position:absolute;
+    left:220px;
+    top:295px;
+    opacity:0;
+}
+
+
+.nn8{
+    width:180px;
+    position:absolute;
+    left:420px;
+    top:295px;
+    opacity:0;
+}
+
+
+.nn9{
+    width:180px;
+    position:absolute;
+    left:620px;
+    top:295px;
+    opacity:0;
+}
+
+.dop{
+    font-family: oxxo;
+    width:200px;
+    height:50px;
+    position:absolute;
+    left:850px;
+    top:340px;
+    opacity:0;
+    color:white;
+
+}
+
+.arw{
+    width:150px;
+    height:150px;
+    position:absolute;
+    left:800px;
+    top:410px; 
+    opacity:0; 
+}
+
+.arw:hover{
+    width:200px;
+    height:180px;
+    position:absolute;
+    left:800px;
+    top:390px;
+
+}
+
+.help{
+    font-family: oxxo;
+    width:240px;
+    height:50px;
+    position:absolute;
+    left:850px;
+    top:400px;
+    opacity:0;
+    color:white;
+}
+
+
