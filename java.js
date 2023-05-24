@@ -71,6 +71,16 @@ $(".start").click(
         $(".background").css("opacity","0.4");
         $(".title").css("opacity","0.4");
     }
-)
+);
+$(".nextpage").mouseenter(
+    function(){
+        $(".notsmart").css("opacity","1");
+    }
+);
+$(".nextpage").mouseleave(
+    function(){
+        $(".notsmart").css("opacity","0");
+    }
+);
 
 });

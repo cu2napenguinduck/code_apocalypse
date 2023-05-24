@@ -30,10 +30,10 @@
     font-family: oxxo;
     position: absolute;
     left: 1000px;
-    bottom: 50px;
+    bottom: 200px;
     width: 200px;
-    font-size: 20px;
-    animation: delay 1s 0s none;
+    font-size: 15px;
+    opacity: 0;
 }
 .explanation{
     color: white;
@@ -45,13 +45,6 @@
     font-size: 30px;
     animation: delay 1s 0s none;
 } 
-.notsmart:hover{
-    font-size: 30px;
-    width: 300px;
-    position: absolute;
-    bottom: 40px;
-    left: 950px;
-}
 @font-face{
     font-family: 'oxxo';
     src: url('setofont.ttf');
@@ -63,4 +56,16 @@
     to{
         opacity:1;
     }
+}
+.nextpage{
+    width: 100px;
+    position: absolute;
+    left: 1020px;
+    bottom: 10px;
+    animation: delay 1s 0s none;
+}
+.nextpage:hover{
+    width: 200px;
+    position: absolute;
+    left: 980px;
 }
