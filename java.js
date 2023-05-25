@@ -82,5 +82,21 @@ $(".nextpage").mouseleave(
         $(".notsmart").css("opacity","0");
     }
 );
+$(".decoration").mouseenter(
+    function(){
+        $(".bigface").css("opacity","1");
+        $(".what").css("opacity","1");
+        $(".decoration").css("opacity","0");
+    }
+);
+$(".decoration").mouseleave(
+    function(){
+        $(".bigface").css("opacity","0");
+        $(".what").css("opacity","0");
+        $(".decoration").css("opacity","1");
+    }
+);
+
+
 
 });

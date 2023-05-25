@@ -1,0 +1,61 @@
+@font-face{
+    font-family: 'oxxo';
+    src: url("setofont.TTF");
+}
+.ask{
+    font-family: oxxo;
+    font-size: 20px;
+    position: absolute;
+}
+.choose{
+    font-family: oxxo;
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+}
+.haha{
+    width: 250px;
+    font-family: oxxo;
+    font-size: 20px;
+    position: absolute;
+    left: 1020px;
+    top: 380px;
+
+}
+.door{
+    width:250px;
+    opacity: 1;
+    position:absolute;
+    top:0px;
+    left:960px;
+}
+.openingdoor{
+    width:300px;
+    position:absolute;
+    top:0px;
+    left: 960px;
+    opacity: 0;
+
+}
+.openingdoor:hover{
+    opacity:1;
+}
+.decoration{
+    width: 200px;
+    position: absolute;
+    left: 500px;
+}
+.bigface{
+    position: absolute;
+    left: 450px;
+    width: 500px;
+    opacity: 0;
+}
+.what{
+    font-family: oxxo;
+    position: absolute;
+    left: 80px;
+    top: 200px;
+    font-size: 100px;
+    opacity: 0;
+}
