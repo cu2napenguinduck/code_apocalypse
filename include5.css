@@ -2,8 +2,36 @@
     font-family: 'oxxo';
     src: url('setofont.ttf');
 }
+@keyframes delay{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
 .knowledge{
     font-family: oxxo;
     font-size: 30px;
     color: black;
+    animation: delay 1s 0s none;
+}
+.picture{
+    width: 1000px;
+    position: absolute;
+    left: 50px;
+    animation: delay 1s 0s none;
+}
+.whitearrow{
+    width: 100px;
+    position: absolute;
+    left: 980px;
+    bottom: 50px;
+    animation: delay 1s 0s none;
+
+}
+.whitearrow:hover{
+    width: 250px;
+    position: absolute;
+    left: 900px;
 }
