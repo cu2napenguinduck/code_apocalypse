@@ -1,0 +1,92 @@
+@keyframes delay{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@font-face{
+    font-family: 'oxxo';
+    src: url('setofont.ttf');
+}
+.b1{
+    position: absolute;
+    height: 100px;
+    width:420px;
+    left:600px;
+    transform: scaleX(-1);
+    opacity: 0;
+    animation: delay 1s 1s forwards;
+}
+.w1{
+    font-family: oxxo;
+    position: absolute;
+    left: 650px;
+    top:50px;
+    font-size: 30px;
+}
+.b2{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    height: 80px;
+    width:700px;
+    opacity: 0;
+    animation: delay 1s 2s forwards;
+}
+.w2{
+    font-family: oxxo;
+    position: absolute;
+    left: 230px;
+    top:150px;
+    font-size: 30px;
+}
+.b3{
+    position: absolute;
+    top: 220px;
+    left: 450px;
+    height: 300px;
+    width:600px;
+    opacity: 0;
+    transform: scaleX(-1);
+    animation: delay 1s 3s forwards;
+}
+.rp1{
+    border:solid;
+    border-radius: 35%;
+    border-color: black;
+    margin: 0;
+    text-align:center;
+    padding:10px;
+    font-family: oxxo;
+    position: absolute;
+    left: 550px;
+    top:380px;
+    font-size: 30px;
+    opacity:0;
+    animation: delay 1s 3s forwards;
+}
+.rp2{
+    border:solid;
+    border-radius: 35%;
+    border-color: black;
+    margin: 0;
+    text-align:center;
+    padding:10px;
+    font-family: oxxo;
+    position: absolute;
+    left: 480px;
+    top:300px;
+    font-size: 30px;
+    opacity:0;
+    animation: delay 1s 3s forwards;
+}
+.rp1:hover{
+    background-color: black;
+    color:white;
+}
+.rp2:hover{
+    background-color: black;
+    color:white;
+}

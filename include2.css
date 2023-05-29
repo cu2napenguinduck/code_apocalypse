@@ -38,8 +38,9 @@
 }
 .myborder{
     position: absolute;
-    left: 200px;
-    width:900px;
+    left:320px;
+    top:100px;
+    width:700px;
     opacity: 0;
 }
 .q1{

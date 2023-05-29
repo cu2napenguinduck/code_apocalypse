@@ -4,9 +4,16 @@
     top:110px;
     left: 480px;
     animation: delay 1s 0s none;
-    z-index:4;
-    
+    z-index:4;   
 }
+
+.ch1:hover{
+    width:130px;
+    position: absolute;
+    top:100px;
+    left: 470px;
+}
+
 @keyframes delay{
     from{
         opacity:0;
@@ -31,10 +38,10 @@
 }
 
 .border{
-    width:800px;
+    width:600px;
     position:absolute;
-    left:140px;
-    top:80px;
+    left:250px;
+    top:150px;
     opacity:0;
     z-index:1;
 
@@ -54,6 +61,7 @@
     opacity:0;
     z-index:2;
 }
+
 
 .ans1{
     border:solid;

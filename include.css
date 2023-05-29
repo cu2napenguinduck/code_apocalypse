@@ -207,10 +207,10 @@
     opacity: 0;
 }
 .warn{
-    width: 800px;
+    width: 580px;
     position: absolute;
-    left: 150px;
-    top: 50px;
+    left: 270px;
+    top: 140px;
     opacity: 0;
 }
 .all{
