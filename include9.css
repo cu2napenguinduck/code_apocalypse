@@ -63,6 +63,7 @@
     position: absolute;
     left: 550px;
     top:380px;
+    color:black;
     font-size: 30px;
     opacity:0;
     animation: delay 1s 3s forwards;
@@ -77,6 +78,7 @@
     font-family: oxxo;
     position: absolute;
     left: 480px;
+    color:black;
     top:300px;
     font-size: 30px;
     opacity:0;

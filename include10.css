@@ -79,6 +79,7 @@
     position: absolute;
     left: 550px;
     top:380px;
+    color:black;
     font-size: 30px;
     opacity:0;
     animation: delay 1s 4s forwards;
@@ -94,6 +95,7 @@
     position: absolute;
     left: 670px;
     top:300px;
+    color:black;
     font-size: 30px;
     opacity:0;
     animation: delay 1s 4s forwards;
