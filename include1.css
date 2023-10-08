@@ -18,13 +18,13 @@
     opacity:1;
 }
 .idconfirm{
-    width:400px;
+    width:550px;
     text-align: center;
     font-family: oxxo;
     font-size: x-large;
     position: absolute;
     left:500px;
-    top: 40px;
+    top: 60px;
     opacity: 0;
 }
 .question{
@@ -35,7 +35,7 @@
     font-size: 50px;
     position: absolute;
     left:500px;
-    top: 150px;
+    top: 100px;
     padding: 50px;
     opacity: 0;
 }
@@ -69,7 +69,7 @@
     border-color: black;
     margin: 0;
     text-align:center;
-    height:40px;
+    height:85px;
     width: 150px;
     position:absolute;
     left:750px;
