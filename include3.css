@@ -20,9 +20,9 @@
 .w1{
     font-family: oxxo;
     position: absolute;
-    left: 100px;
+    left: 75px;
     top:50px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .b2{
     position: absolute;
@@ -57,7 +57,7 @@
     position: absolute;
     left: 100px;
     top:280px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .b4{
     position: absolute;
@@ -74,8 +74,8 @@
     width: 380px;
     font-family: oxxo;
     position: absolute;
-    left: 250px;
-    top:430px;
+    left: 230px;
+    top:445px;
     font-size: 30px;
 }
 .b5{
@@ -118,7 +118,7 @@
     top: 260px;
     left: 550px;
     height: 80px;
-    width:250px;
+    width:400px;
     opacity: 0;
     animation: delay 1s 7s forwards;
 }
@@ -128,14 +128,14 @@
     position: absolute;
     left: 620px;
     top:280px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .b8{
     position: absolute;
     top: 350px;
     left: 550px;
     height: 80px;
-    width:250px;
+    width:430px;
     opacity: 0;
     animation: delay 1s 8s forwards;
 }
@@ -143,14 +143,14 @@
     width: 580px;
     font-family: oxxo;
     position: absolute;
-    left: 610px;
+    left: 615px;
     top:380px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .b9{
     position: absolute;
-    top: 420px;
+    top: 450px;
     left: 830px;
     height: 80px;
     width:150px;
@@ -163,7 +163,7 @@
     font-family: oxxo;
     position: absolute;
     left: 880px;
-    top:430px;
+    top:460px;
     font-size: 50px;
 }
 .arrow{
