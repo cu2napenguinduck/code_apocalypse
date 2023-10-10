@@ -2,9 +2,9 @@
     margin:auto;
     text-align:center;
     height:100px;
-    width: 200px;
+    width: 400px;
     position:absolute;
-    left:480px;
+    left:370px;
     top:150px;
     font-family:oxxo,serif;
     font-size: 25px;
@@ -227,9 +227,9 @@
     font-family: oxxo;
     font-size: 25px;
     position: absolute;
-    width: 380px;
+    width: 400px;
     left: 380px;
-    top: 260px;
+    top: 240px;
     opacity: 0;
     z-index: 1;
 }
